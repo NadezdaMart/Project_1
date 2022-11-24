@@ -8,9 +8,13 @@
 
     
 }
-
+.container {
+    display: grid;
+    
+}
 .velozar {
-    height: 100vh;
+    height: fit-content;
+    width: auto;
     background-color: #F4F9E2;
     
 
@@ -81,8 +85,9 @@ h2 {
 }
 .shto_my_predlagaem {
     display: grid;
-    height: 50vh;
-    grid-template-columns: 70% 30%;
+    height: fit-content;
+    width: auto;
+    grid-template-columns: 3fr 1fr;
     
 }
 
@@ -91,18 +96,9 @@ h2 {
     display: grid;
     justify-content: center;
     align-items: center;
+    padding: auto;
+    padding-top: 131px;
 
-}
-h3 {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 28px;
-    letter-spacing: -0.006em;
-    color: #FFFFFF;
-    margin-left: 178px;
-    
-    
 }
 .text_2 {
     font-weight: 400;
@@ -114,13 +110,123 @@ h3 {
     margin-right: 160px;
     font-style: italic;
     font-weight: lighter;
+    padding-bottom: 132px;
     
 }
-.postojannye_klienty {
-    height: 50vh;
-    display: grid;
+h3 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 28px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    margin-left: 178px;
 }
+
 .text_3 {
+    height: fit-content;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    padding-top: 251px;
+    padding-bottom: 137px;
+    padding-left: 397px;
+    padding-right: 304px;
+    color: #22356F;
+    
     
 }
 
+.postojannye_klienty {
+    
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+.godovoe {
+    background-color: #22356F;
+    color: white;
+    height: 480px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    font-weight: lighter;
+    padding-top: 126px;
+    padding-left: 70px;
+    transition: 0.2s;
+    text-decoration: overline 1px;
+    
+   
+}
+
+.godovoe:hover {
+    cursor: pointer;
+    font-size: 150%;
+    
+}
+.vyravnivanie_koles {
+    background-color: #0052C1;
+    color: white;
+    height: 480px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    font-weight: lighter;
+    padding-top: 126px;
+    padding-left: 70px;
+    text-decoration: overline 1px;
+    
+}
+.nastrojka {
+    background-color: #76B58B;
+    color: white;
+    height: 480px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    font-weight: lighter;
+    padding-top: 126px;
+    padding-left: 70px;
+    text-decoration: overline 1px;
+    
+}
+.tri_bloka {
+    display: grid;
+    height: fit-content;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.prokat_velosipedov {
+    display: grid;
+    height: fit-content;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.prokat {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 28px;
+    letter-spacing: -0.006em;
+    color: #22356F;
+    font-weight: lighter
+}
+.prokatvelosipedov {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    color: #22356F;
+    font-weight: lighter;
+}
+.lokacija {
+    align-items: center;
+}
